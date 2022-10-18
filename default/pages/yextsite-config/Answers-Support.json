@@ -1,23 +1,24 @@
 {
-    "$id": "Answers-Support",
-    "$schema": "https://schema.yext.com/config/pages/yextsite-config/v1",
-    "siteName": "Answers - Support",
-    "repoConfig": "smolder-commuting-override-f9211",
-    "siteSettings": {
+  "$id": "Answers-Support",
+  "$schema": "https://schema.yext.com/config/pages/yextsite-config/v1",
+  "siteName": "Answers - Support",
+  "repoConfig": "smolder-commuting-override-f9211",
+  "domainConfig": "supportembed.pagescdn.com",
+  "siteSettings": {
       "autoDeploy": true,
       "autoStage": true,
-      "autoPublish": false,
+      "autoPublish": true,
       "pullRequestsEnabled": false,
       "stagingCredentials": {
         "password": "test",
         "username": "test"
       }
     },
-    "branches": [
-      {
-        "name": "master",
-        "envVars": [],
-        "isProductionBranch": true
-      }
-    ]
+  "branches": [
+    {
+      "name": "master",
+      "envVars": [],
+      "isProductionBranch": true
+    }
+  ]
 }
